@@ -1,0 +1,6 @@
+{
+  "git.confirmForcePush": true,
+  "search.useIgnoreFiles": true,
+  "search.useGlobalIgnoreFiles": false,
+  "git.enabled": false
+}

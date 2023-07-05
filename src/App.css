@@ -1,0 +1,51 @@
+.slick-next,
+.slick-prev {
+  position: relative;
+  z-index: 100;
+  width: 3rem !important;
+  height: 3rem !important;
+  display: block;
+  background: #3333 !important;
+  top: 50% !important;
+  right: 0.85rem !important;
+  transform: translateX(-50%);
+  border-radius: 100%;
+  box-shadow: 0 12px 8px 0 rgb(0 0 0 / 16%);
+}
+.slick-prev:before {
+  content: "<";
+  color: white !important;
+  font-size: 4rem !important;
+}
+
+.slick-next:before {
+  content: ">";
+  color: white !important;
+  font-size: 4rem !important;
+}
+
+.backgroundImage {
+  height: 30rem;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/22/18/52/beach-1761410_1280.jpg");
+}
+
+@media screen and (max-width: 768px) {
+  .backgroundImage {
+    height: 15rem; /* Chiều cao tùy chỉnh cho điện thoại di động */
+  }
+  .slick-next {
+    right: 35px !important;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+  }
+}
