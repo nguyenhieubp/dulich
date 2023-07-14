@@ -50,7 +50,7 @@ const Featured = () => {
   };
 
   const handleChooseImage = ({ id, image, name, desc, address }) => {
-    navigate("/hotel/" + name, {
+    navigate("location/" + name, {
       state: {
         index: id,
         image,

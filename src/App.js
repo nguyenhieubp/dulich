@@ -30,8 +30,8 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Header />}></Route>
-            <Route path="/hotel" element={<Search />}></Route>
-            <Route path="/hotel/:id" element={<Itemhouse />}></Route>
+            <Route path="/location" element={<Search />}></Route>
+            <Route path="/location/:id" element={<Itemhouse />}></Route>
             <Route path="/login" element={<Login />}></Route>
             <Route path="/blog" element={<Blog />}></Route>
             <Route path="/contact" element={<Contact />}></Route>

@@ -61,7 +61,7 @@ const Sliderbarheader = () => {
   };
   const handleSearch = () => {
     dispatch(search(valueFormInput));
-    navigate("/hotel", { state: { valueFormInput, options, date } });
+    navigate("/location", { state: { valueFormInput, options, date } });
   };
   return (
     <>

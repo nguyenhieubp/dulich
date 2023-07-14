@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 const Itemsearch = ({ image, name, desc, dataIndex, address }) => {
   const navigate = useNavigate();
   const handleChooseImage = () => {
-    navigate("/hotel/" + name, {
+    navigate("/location/" + name, {
       state: { index: dataIndex, image, name, desc, address },
     });
   };
